@@ -11,7 +11,7 @@ A list of commonly used Git commands:
 | `git commit -m "[commit message]"` | Commit changes |
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
-| `git remote add origin git@github.com/joshnh/[repository-name].git` | Add a remote repository |
+| `git remote add origin ssh://git@github.com/joshnh/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/joshnh/[repository-name].git` | Set a repository's origin branch to SSH |
 | `git push -u origin master` | Push changes to remote repository (first time) |
 | `git push` | Push changes to remote repository (subsequent times) |
