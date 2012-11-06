@@ -13,9 +13,9 @@ A list of commonly used Git commands:
 | `git log --summary` | View changes (detailed) |
 | `git remote add origin ssh://git@github.com/joshnh/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/joshnh/[repository-name].git` | Set a repository's origin branch to SSH |
-| `git push -u origin master` | Push changes to remote repository (first time) |
+| `git push -u origin [branch name]` | Push changes to remote repository (first time) |
 | `git push` | Push changes to remote repository (subsequent times) |
-| `git pull origin master` | Pull changes from remote repository |
+| `git pull origin [branch name]` | Pull changes from remote repository |
 | `git clone ssh://git@github.com/joshnh/[repository-name].git` | Create a local copy of a remote repository |
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
