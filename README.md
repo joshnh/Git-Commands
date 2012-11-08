@@ -9,6 +9,7 @@ A list of commonly used Git commands:
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
+| `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
 | `git remote add origin ssh://git@github.com/joshnh/[repository-name].git` | Add a remote repository |
