@@ -8,6 +8,7 @@ A list of commonly used Git commands:
 | `git init` | Initialize a local Git repository | 
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
+| git add -A | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git log` | View changes |
