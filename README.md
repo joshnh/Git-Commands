@@ -22,6 +22,7 @@ A list of commonly used Git commands:
 | `git clone ssh://git@github.com/joshnh/[repository-name].git` | Create a local copy of a remote repository |
 | `git checkout -b [branch name]` | Create a new branch and switch to it |
 | `git checkout [branch name]` | Switch to a branch |
+| `git checkout -` | Switch to the branch last checked out |
 | `git push origin [branch name]` | Push a branch to your remote repository |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git diff [source branch] [target branch}` | Preview changes before merging |
