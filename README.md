@@ -26,6 +26,7 @@ A list of commonly used Git commands:
 | `git checkout -` | Switch to the branch last checked out |
 | `git push origin [branch name]` | Push a branch to your remote repository |
 | `git merge [branch name]` | Merge a branch into the active branch |
+| `git merge [branch name] [target branch]` | Merge a branch into a target branch |
 | `git diff [source branch] [target branch}` | Preview changes before merging |
 | `git branch -d [branch name]` | Delete a branch |
 | `git push origin --delete [branch name]` | Delete a remote branch |
