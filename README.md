@@ -40,8 +40,8 @@ _A list of my commonly used Git commands_
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
-| `git stash` | Stash the changes in a dirty working directory away |
-| `git stash clear` | Remove all the stashed states |
+| `git stash` | Stash changes in a dirty working directory |
+| `git stash clear` | Remove all stashed entries |
 
 ### Sharing & Updating Projects
 
