@@ -55,6 +55,7 @@ _A list of my commonly used Git commands_
 | `git pull origin [branch name]` | Pull changes from remote repository |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+| git cherry-pick master | Apply the change introduced by the commit at the tip of the master branch and create a new commit with this change. |
 
 ### Inspection & Comparison
 
