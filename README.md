@@ -63,4 +63,13 @@ _A list of my commonly used Git commands_
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
-
+### Tagging
+| Command | Description |
+| ------- | ----------- |
+| `git tag` | View tags |
+| `git tag -a '<give the tag name' -m "give tag desc'` | it will add the tag to current head  |
+| `git tag -l` | it will list out the all the tags |
+| `git show <tag version>' | give the tag version - triggered - date - author - commit hash - desc |
+| `git push origin <tag num>` | push the tag version into origin master |
+| `git tag -d <tag version>` | deltes the tag |
+| `git push origin --delete <tag-name> | will deltes the tag in remote repository |
