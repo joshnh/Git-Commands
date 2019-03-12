@@ -43,6 +43,12 @@ _A list of my commonly used Git commands_
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
 
+### Tags
+
+| Command | Description |
+| ------- | ----------- |
+| `git tag` | List tagss |
+
 ### Sharing & Updating Projects
 
 | Command | Description |
