@@ -51,9 +51,11 @@ _A list of my commonly used Git commands_
 | `git tag -l ["pattern"]` | List tags that match a particular pattern (ex : "v1.8.5*")|
 | `git tag -a [tag name] -m ["message"]` | Create annotated tags |
 | `git tag [tag name] -m ["message"]` | Create lightweight tags |
-| `git tag -a [tag name] [checksum]` |  Create tag for specific commit (ex : git tag -a v1.2 9fceb02)
-| `git push origin [tagname]` | Push tag to remote servers"
-| `git push origin --tags` | Push all tags to remote servers"
+| `git tag -a [tag name] [checksum]` |  Create tag for specific commit (ex : git tag -a v1.2 9fceb02)|
+| `git push origin [tagname]` | Push tag to remote servers|
+| `git push origin --tags` | Push all tags to remote servers|
+| `git tag -d [tagname]`| delete a tag on local repository|
+| `git push origin --delete [tagname]`| delete a tag on remote repository|
 
 ### Sharing & Updating Projects
 
