@@ -47,7 +47,13 @@ _A list of my commonly used Git commands_
 
 | Command | Description |
 | ------- | ----------- |
-| `git tag` | List tagss |
+| `git tag` | Lists the tags in alphabetical order |
+| `git tag -l "v1.8.5*"` | List tags that match a particular pattern (ex : "v1.8.5*")|
+| `git tag -a [tag name] -m ["message"]` | Create annotated tags |
+| `git tag [tag name] -m ["message"]` | Create lightweight tags |
+| `git tag -a [tag name] [checksum]` |  Create tag for specific commit (ex : git tag -a v1.2 9fceb02)
+| `git tag -l "v1.8.5*"` |  tags that match a particular pattern (ex : "v1.8.5*"
+| `git tag -l "v1.8.5*"` |  tags that match a particular pattern (ex : "v1.8.5*"
 
 ### Sharing & Updating Projects
 
