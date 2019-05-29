@@ -1,8 +1,8 @@
 Git Commands
 ============
 
-# Translate Version
-(Versão em português)[READMEpt.md]
+## Translate Version
+[VersÃ£o em portuguÃªs](READMEpt.md)
 
 _A list of my commonly used Git commands_
 
