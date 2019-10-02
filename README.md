@@ -23,6 +23,7 @@ _A list of my commonly used Git commands_
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git clean -n`| Delete untracked files in the local working directory |
 
 ### Branching & Merging
 
@@ -40,8 +41,6 @@ _A list of my commonly used Git commands_
 | `git checkout -- [file-name.txt]` | Discard changes to a file |
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
-| `git stash` | Stash changes in a dirty working directory |
-| `git stash clear` | Remove all stashed entries |
 
 ### Sharing & Updating Projects
 
@@ -63,4 +62,16 @@ _A list of my commonly used Git commands_
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git blame [my_file]` | See who changed what and when in my_file. 👉 |
+| `git reflog` | Show a log of changes to the local repository’s HEAD. Good for finding lost work. 🔎 |
+
+### Undo Changes & Renaming
+
+| Command | Description |
+| ------- | ----------- |
+| `git stash` | Stash changes in a dirty working directory |
+| `git stash clear` | Remove all stashed entries |
+| `git reset --soft [HEAD]` | Discard staged and unstaged changes since the most recent commit |
+| `git commit --amend` | Rename commit locally |
+
 
