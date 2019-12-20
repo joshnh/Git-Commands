@@ -1,3 +1,7 @@
 error: pathspec did not match any file(s) known to git
 
 Solution : git fetch
+
+To modify configurations
+git config --local -e
+
