@@ -5,3 +5,7 @@ Solution : git fetch
 To modify configurations
 git config --local -e
 
+Fetch changes from master to local branch
+git merge origin/master
+https://stackoverflow.com/questions/20101994/git-pull-from-master-into-the-development-branch
+
