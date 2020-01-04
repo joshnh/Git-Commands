@@ -9,3 +9,5 @@ Fetch changes from master to local branch
 git merge origin/master
 https://stackoverflow.com/questions/20101994/git-pull-from-master-into-the-development-branch
 
+Remove multiple deleted files from github
+git add -u 
