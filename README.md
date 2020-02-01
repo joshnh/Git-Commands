@@ -73,6 +73,8 @@ _A list of my commonly used Git commands_
 
 ### Cleaning Untracked Files
 
+| Command | Description |
+| ------- | ----------- |
 | `git clean -n` | To see which files will be deleted by git clean |
 | `git clean -f` | To force remove all untracked files |
 | `git clean -f <path>` | To remove a specific file |
