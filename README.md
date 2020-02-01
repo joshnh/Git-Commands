@@ -70,3 +70,12 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Cleaning Untracked Files
+
+| `git clean -n` | To see which files will be deleted by git clean |
+| `git clean -f` | To force remove all untracked files |
+| `git clean -f <path>` | To remove a specific file |
+| `git clean -fd` | To remove directories |
+| `git clean -f -x` | To also remove ignored files |
+
