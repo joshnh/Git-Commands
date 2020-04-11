@@ -11,3 +11,6 @@ https://stackoverflow.com/questions/20101994/git-pull-from-master-into-the-devel
 
 Remove multiple deleted files from github
 git add -u 
+
+Remove multiple deleted files from github
+git rm `git status | grep deleted | awk '{print $2}'`
