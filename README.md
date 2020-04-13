@@ -29,6 +29,8 @@ _A list of my commonly used Git commands_
 | `git add -u` | Add all new and remove deleted files |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
+| `git remote show origin` | show details of current repository |
+
 
 ### Branching & Merging
 
