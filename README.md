@@ -11,6 +11,13 @@ _A list of my commonly used Git commands_
 *If you are interested in my Git aliases, have a look at my `.bash_profile`, found here: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
 
 --
+### Git Configuration
+
+| Command | Description |
+| ------- | ----------- |
+| `git config --global user.name "Hello World"` | Adding your username |
+| `git config --global user.email test@example.com` | Adding your email |
+| `git config --global global core.editor vscode` | Setting your default editor |
 
 ### Getting & Creating Projects
 
@@ -69,4 +76,7 @@ _A list of my commonly used Git commands_
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
+| `git log --graph` | View your git log as a graph |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git diff` | Shows all the changes made |
+
