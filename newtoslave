@@ -1,4 +1,9 @@
 Hi This is slave branch
 
 
-I am caeted this beacuse of learning branching and how to merge with master 
+I am caeted this beacuse of learning branching and how to merge with master
+
+
+steps: 
+1. Merging git merge source-branch target-branch
+ 
