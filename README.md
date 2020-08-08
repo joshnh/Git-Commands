@@ -75,7 +75,7 @@ _A list of my commonly used Git commands_
 
 | Commands | Description |
 | -------- | ----------- |
-| `git remote add upstream ssh://git@github.com/original-repo/goes-here.git` | Fetch all branches of remote upstream |
+| `git remote add upstream ssh://git@github.com/original-repo/goes-here.git` | Add the remote (original repo that you forked) and call it “upstream” |
 | `git fetch upstream` | | Fetch all branches of remote upstream |
-| `git rebase upstream/master` | ewrite your master with upstream’s master using git rebase. |
+| `git rebase upstream/master` | rewrite your master with upstream’s master using git rebase. |
 | `git push origin master --force` | Push your updates to master. You may need to force the push with “--force”. |
