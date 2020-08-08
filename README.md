@@ -69,4 +69,12 @@ _A list of my commonly used Git commands_
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
-| `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git diff [source branch] [target branch]` | Preview changes before merging 
+
+### Updating with the forked repository
+
+| Commands | Description |
+| `git remote add upstream ssh://git@github.com/original-repo/goes-here.git` | Fetch all branches of remote upstream |
+| `git fetch upstream` | | Fetch all branches of remote upstream |
+| `git rebase upstream/master` | ewrite your master with upstream’s master using git rebase. |
+| `git push origin master --force` | Push your updates to master. You may need to force the push with “--force”. |
