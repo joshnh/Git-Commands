@@ -10,7 +10,7 @@ Sık kullanılan GitHub kısayollarının listesi, hem de Türkçe!
 - [Português](https://github.com/vali-kh/Git-Commands/blob/master/READMEpt.md)
 
 <!-- ___ -->
-<br/><br/>
+<br/>
 
 
 
@@ -21,7 +21,7 @@ Sık kullanılan GitHub kısayollarının listesi, hem de Türkçe!
 | `git init` | Yeni bir yerel Git deposu oluştur |
 | `git clone https://github.com/[username]/[repo_name].git` | Sunucudaki deponun yerel bir klonunu oluştur |
 
-<br/><br/>
+<br/>
 
 ### Sürüm / Değişiklik Yönetimi
 
@@ -36,7 +36,7 @@ Sık kullanılan GitHub kısayollarının listesi, hem de Türkçe!
 | `git restore --staged [filename.txt]` | Belirli bir dosyayı (ya da klasörü) evreleme alanından çıkar |
 | `git commit -m "[commit_message]"` | Evreleme alnındaki dosyaların değişiklikleri bir mesaj ile kayıt defterine işle |
 
-<br/><br/>
+<br/>
 
 ### Branş Yönetimi
 
@@ -56,7 +56,7 @@ Sık kullanılan GitHub kısayollarının listesi, hem de Türkçe!
 | `git merge [branch_name]` | Başka bir branşı, şu an bulunulan branş ile birleştir |
 | `git merge [source-branch] [target-branch]` | İki farklı branşı birleştir |
 
-<br/><br/>
+<br/>
 
 ### Kirli Saklama Yöntemleri
 
@@ -69,7 +69,7 @@ Sık kullanılan GitHub kısayollarının listesi, hem de Türkçe!
 | `git stash pop stash@{stash_index}` | Seçilen bir saklanan değişikliği bulunulan branşa aktar, ve ardından listeden temizle |
 | `git stash clear` | Saklanan tüm değişiklikleri temizle |
 
-<br/><br/>
+<br/>
 
 ### Depo Paylaşım & Güncellemesi
 
@@ -83,7 +83,7 @@ Sık kullanılan GitHub kısayollarının listesi, hem de Türkçe!
 | `git remote add origin https://github.com/[username]/[repo_name].git` | Sunucuda yeni bir depo oluştur |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository_name].git` | Deponun sunucudaki branşını SSH olarak ayarla |
 
-<br/><br/>
+<br/>
 
 ### Kayıt Defteri & Kıyaslama
 
