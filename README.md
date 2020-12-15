@@ -79,10 +79,23 @@ _A list of my commonly used Git commands_
 | `git remote add upstream url-of-forked-repository` | Add a forked repository and call it "upstream" (step 2)|
 | `git fetch upstream` | Fetch all the branches of that remote into remote-tracking branches (step 3)|
 | `git checkout master` | Make sure that you're on your master branch (step 4)|
-| `git merge upstream/master` | merge both repoitories (step 5)|
+| `git merge upstream/master` | Merge both repoitories (step 5)|
 | `git rebase upstream/master` | If you want to rewrite the history of your master branch (step 5)|
-| `git push -f origin master` | push changes to the forked repo. use the -f the first time after you've rebased. (step 6)|
+| `git push -f origin master` | Push changes to the forked repo. use the -f the first time after you've rebased. (step 6)|
 
+
+### Reseting the head:
+
+| Command | Description |
+| ------- | ----------- |
+| `git reset --hard HEAD` | Going back to HEAD(find head using 'git log' command )|
+| `git push --force origin commit-on-github:master` | Going back to the commit on the Github|
+
+
+### Forget to switch to right branch
+| Command | Description |
+| ------- | ----------- |
+| `git stash branch branchName` | Changes that you want to stash them into a new branch|
 
 
 
