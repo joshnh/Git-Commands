@@ -6,6 +6,7 @@ Git Commands
 | Command | Description |
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
+| `touch [file-name.txt]` | Create a new file in the repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
 
 ### Basic Snapshotting
@@ -43,11 +44,14 @@ Git Commands
 | Command | Description |
 | ------- | ----------- |
 | `git push origin [branch name]` | Push a branch to your remote repository |
+| `git push origin main` | Push a new commit to the central repository |
 | `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
 | `git push` | Push changes to remote repository (remembered branch) |
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git pull` | Update local repository to the newest commit |
 | `git pull origin [branch name]` | Pull changes from remote repository |
+| `git pull` | Update local repository to the newest commit |
+| `git pull --rebase origin main` | move the commits to the tip of the main branch (Use this instad of merge commit) | 
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
 
