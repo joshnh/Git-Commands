@@ -47,6 +47,7 @@ _A list of my commonly used Git commands_
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
+| `git reset --hard origin/master` | Throws away all the staged and unstaged changes make it exactly as origin/master |
 | `git stash clear` | Remove all stashed entries |
 
 ### Sharing & Updating Projects
