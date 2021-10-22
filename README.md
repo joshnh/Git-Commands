@@ -48,6 +48,7 @@ _A list of my commonly used Git commands_
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git branch -d [branch name]` | Delete Local Branch |
 | `git stash` | Stash changes in a dirty working directory |
+| `git reset --hard origin/master` | Throws away all the staged and un-staged changes make it exactly as origin/master |
 | `git stash clear` | Remove all stashed entries |
 
 ### Sharing & Updating Projects
