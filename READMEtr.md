@@ -2,8 +2,8 @@ Git Komutları
 ============
 
 ## Çevrilmiş Versiyonlan
-- [Versão em português](READMEpt.md)
 - [English version (original)](README.md)
+- [Versão em português](READMEpt.md)
 
 ___
 
