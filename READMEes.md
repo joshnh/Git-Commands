@@ -2,7 +2,7 @@ Comandos de Git
 ============
 
 ## Versiones traducidas
-- [Version in English](README.md)
+- [English version (original)](README.md)
 - [Versão em português](READMEpt.md)
 - [Türkçe versiyon](READMEtr.md)
 
