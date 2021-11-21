@@ -4,6 +4,7 @@ Git Komutları
 ## Çevrilmiş Versiyonlar
 - [English version (original)](README.md)
 - [Versão em português](READMEpt.md)
+- [Versión en español](READMEes.md)
 
 ___
 
