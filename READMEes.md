@@ -5,6 +5,7 @@ Comandos de Git
 - [English version (original)](README.md)
 - [Versão em português](READMEpt.md)
 - [Türkçe versiyon](READMEtr.md)
+- [বাংলা সংস্করণ](READMEbn.md)
 
 ___
 

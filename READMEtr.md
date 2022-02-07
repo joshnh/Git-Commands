@@ -5,6 +5,7 @@ Git Komutları
 - [English version (original)](README.md)
 - [Versão em português](READMEpt.md)
 - [Versión en español](READMEes.md)
+- [বাংলা সংস্করণ](READMEbn.md)
 
 ___
 
