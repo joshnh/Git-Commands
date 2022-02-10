@@ -73,3 +73,29 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Git Flow Feature
+
+| Command | Description |
+| ------- | ----------- |
+| `git flow init` | Initialize git flow |
+| `git flow feature start [FEATURE_NAME]` | Create a new feature |
+| `git flow feature publish [FEATURE_NAME]` | Publish the feature |
+| `git flow feature finish [FEATURE_NAME]` | Merges the feature into main and finish it |
+| `git flow feature pull origin [FEATURE_NAME]` | Make a pull request |
+
+### Git Flow Release
+
+| Command | Description |
+| ------- | ----------- |
+| `git flow release start [RELEASE]` | Create a release |
+| `git flow release publish` | Publish the release |
+| `git flow release finish` | Merges the release into main, tag it and finish it |
+
+### Git Flow Hotfix
+
+| Command | Description |
+| ------- | ----------- |
+| `git flow hotfix start [NAME]` | Create a hotfix |
+| `git flow hotfix finish [NAME]` | Publish the release |
+
