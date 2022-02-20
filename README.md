@@ -52,7 +52,8 @@ _A list of my commonly used Git commands_
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
-
+| `git revert [commit hash]` | Revert the commit |
+| `git revert -n [branch]~[x]..[branch]~[y]` | Revert the changes done by commits from the [x] last commit in master (included) to the [y] last commit in master (included) |
 ### Sharing & Updating Projects
 
 | Command | Description |
