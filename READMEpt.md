@@ -63,7 +63,8 @@ _Uma lista dos comandos Git mais usados_
 | `git pull origin [nome da branch]` | Recebe alterações do repositório remoto |
 | `git remote add origin ssh://git@github.com/[usuario]/[nome-repositorio].git` | Adicionar um repositório remoto |
 | `git remote set-url origin ssh://git@github.com/[usuario]/[nome-repositorio].git` | Seta um repositório da origin branch para o SSH |
-
+| `git fetch [remote] [branch]` | Baixa uma branch remota |
+| `git fetch --all` | Baixa todas as branches remotas |
 ### Inspeção & Comparação
 
 | Comando | Descrição |
