@@ -42,6 +42,7 @@ _A list of my commonly used Git commands_
 | `git branch -d [branch name]` | Delete a branch |
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git checkout -b [branch name]` | Create a new branch and switch to it |
+| `git checkout -b [branch name] [commit hash]` | Create a new branch in a specific commit and switch to it |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
 | `git branch -m [old branch name] [new branch name]` | Rename a local branch |
 | `git checkout [branch name]` | Switch to a branch |
