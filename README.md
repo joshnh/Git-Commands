@@ -72,4 +72,5 @@ _A list of my commonly used Git commands_
 | `git log` | View changes |
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
+| `git log --all --decorate --oneline --graph` | View a 'graph' of the commits, one commit per line |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
