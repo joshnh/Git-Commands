@@ -39,7 +39,8 @@ _A list of my commonly used Git commands_
 | `git branch` | List branches (the asterisk denotes the current branch) |
 | `git branch -a` | List all branches (local and remote) |
 | `git branch [branch name]` | Create a new branch |
-| `git branch -d [branch name]` | Delete a branch |
+| `git branch -d [branch name]` | Delete a branch if there's nothing need to be committed |
+| `git branch -D [branch name]` | Force delete a branch even there are changes need to be committed |  
 | `git push origin --delete [branch name]` | Delete a remote branch |
 | `git checkout -b [branch name]` | Create a new branch and switch to it |
 | `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
@@ -50,7 +51,18 @@ _A list of my commonly used Git commands_
 | `git merge [branch name]` | Merge a branch into the active branch |
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
+| `git stash save "name"` | Add a custom name to the stash |
+| `git stash list` | List all stashes |
+| `git stash pop` | Retrieve last stash |
+| `git stash pop stash@{index}` | Retrieve a specified stash |
+| `git stash apply` | Retrieve last stash and keep it in the stash list |
+| `git stash apply stash@{index}` | Retrieve specified stash and keep it in the stash list |
+| `git stash show` | Show content of last stash |
+| `git stash show stash@{index}` | Show content of a specified stash |
+| `git stash drop` | Delete last stash |
+| `git stash drop stash@{index}` | Delete a specified stash |
 | `git stash clear` | Remove all stashed entries |
+
 
 ### Sharing & Updating Projects
 
