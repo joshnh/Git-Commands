@@ -6,6 +6,7 @@ Comandos Git
 - [Versión en español](READMEes.md)
 - [Türkçe versiyon](READMEtr.md)
 - [বাংলা সংস্করণ](READMEbn.md)
+- [हिन्दी अनुवाद](READMEhi.md)
 
 ___
 
