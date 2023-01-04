@@ -7,6 +7,7 @@ Comandos Git
 - [Türkçe versiyon](READMEtr.md)
 - [বাংলা সংস্করণ](READMEbn.md)
 - [हिन्दी अनुवाद](READMEhi.md)
+- [Bahasa Indonesia](READMEid.md)
 
 ___
 
@@ -72,4 +73,3 @@ _Uma lista dos comandos Git mais usados_
 | `git log` | Ver modificações |
 | `git log --summary` | Ver modificações (detalhadas) |
 | `git diff [branch original] [branch alvo]` | Visualizar alterações antes de mesclar |
-
