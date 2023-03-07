@@ -11,7 +11,7 @@ Git コマンド集
 
 ___
 
-_よく使われるGit Command集_
+_よく使われるGit コマンド集_
 
 Gitエイリアスについては、以下の `.bash_profile` を参照してください。
 *https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
@@ -20,14 +20,14 @@ Gitエイリアスについては、以下の `.bash_profile` を参照してく
 
 ### プロジェクトの作成と取得
 
-| Command | Description |
+| コマンド | 説明 |
 | ------- | ----------- |
 | `git init` | Gitレポジトリの初期化。 |
 | `git clone ssh://git@github.com/[ユーザー名]/[repository-name].git` | リモートレポジトリをローカルにクローン。 |
 
 ### 基本的な操作
 
-| Command | Description |
+| コマンド | 説明 |
 | ------- | ----------- |
 | `git status` | 現在の状況を確認。 |
 | `git add [ファイル名]` | ステージングエリアにファイルを追加。 |
@@ -37,7 +37,7 @@ Gitエイリアスについては、以下の `.bash_profile` を参照してく
 
 ### ブランチの操作とマージ
 
-| Command | Description |
+| コマンド | 説明 |
 | ------- | ----------- |
 | `git branch` | ブランチの一覧を表示。(\*アスタリスクは現在のブランチを示す) |
 | `git branch -a` | 全てのブランチの一覧を表示。(リモートを含む) |
@@ -57,7 +57,7 @@ Gitエイリアスについては、以下の `.bash_profile` を参照してく
 
 ### プロジェクトの共有と更新
 
-| Command | Description |
+| コマンド | 説明 |
 | ------- | ----------- |
 | git push origin [ブランチ名] | ブランチをリモートリポジトリにプッシュ。 |
 | git push -u origin [ブランチ名] | 変更をリモートリポジトリにプッシュ。(指定したリモートブランチをデフォルトとして設定) |
@@ -68,9 +68,9 @@ Gitエイリアスについては、以下の `.bash_profile` を参照してく
 | git remote add origin ssh://git@github.com/[ユーザー名]/[リポジトリ名].git | リモートリポジトリを追加。 |
 | git remote set-url origin ssh://git@github.com/[ユーザー名]/[リポジトリ名].git | リポジトリのoriginブランチをSSHに設定。 |
 
-### Inspection & Comparison
+### 履歴と比較
 
-| Command | Description |
+| コマンド | 説明 |
 | ------- | ----------- |
 | `git log` | 変更履歴を確認。 |
 | `git log --summary` | 詳細な変更履歴を確認。 |
