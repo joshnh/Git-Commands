@@ -22,6 +22,8 @@ _A list of my commonly used Git commands_
 | ------- | ----------- |
 | `git init` | Initialize a local Git repository |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
+| `git clone -b [branch-name] [repo-url]` | Clone the entire repository and switch to `branch-name` |
+| `git clone -b [branch-name] --single-branch [repo-url]` | Clone only the specified branch,i.e., `branch-name` |
 
 ### Basic Snapshotting
 
