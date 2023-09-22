@@ -54,7 +54,7 @@ _قائمة بأوامر جيث شائعة الاستخدام_
 | `git stash` |  تخزين التغييرات في دليل عمل متسخ  |
 | `git stash clear` | إزالة جميع المشاركات المخزنة  |
 
-### Sharing & Updating Projects
+### مشاركة وتحديث المشاريع 
 
 | أمر | وصف |
 | ------- | ----------- |
@@ -67,7 +67,7 @@ _قائمة بأوامر جيث شائعة الاستخدام_
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | إضافة مستودع بعيد |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | تعيين فرع الأصل في المستودع على SSH  |
 
-### Inspection & Comparison
+### التفتيش والمقارنة 
 
 | أمر | وصف |
 | ------- | ----------- |
