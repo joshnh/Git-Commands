@@ -7,6 +7,7 @@ Git Komutları
 - [Versión en español](READMEes.md)
 - [বাংলা সংস্করণ](READMEbn.md)
 - [हिन्दी अनुवाद](READMEhi.md)
+- [العربية](READMEar.md)
 
 ___
 
