@@ -52,6 +52,10 @@ _A list of my commonly used Git commands_
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
+| `git stash save "message"` | Save changes in a dirty working directory with message |
+| `git stash list` | Show all saved change list |
+| `git stash apply [index]` | Copy save change to directory |
+| `git stash drop [index]` | Copy save the change to the directory and clear changes from stash |
 
 ### Sharing & Updating Projects
 
