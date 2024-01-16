@@ -75,3 +75,4 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git log --stat` | View files that were modified and number of lines added or removed
