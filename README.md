@@ -26,7 +26,7 @@ _A list of my commonly used Git commands_
 
 ### Basic Snapshotting
 
-| Command | Description |
+| Command | Descriptionqq |
 | ------- | ----------- |
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
