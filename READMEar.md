@@ -75,3 +75,38 @@ _قائمة بأوامر جيث شائعة الاستخدام_
 | `git log --summary` | عرض التغييرات (مفصّلة) |
 | `git log --oneline` | عرض التغييرات (باختصار) |
 | `git diff [source branch] [target branch]` | معاينة التغييرات قبل الدمج |
+
+### إدارة الالتزامات
+| أمر | وصف |
+| ------- | ----------- |
+| `git revert <commit-hash>` | التراجع عن الالتزام |
+| `git reset --hard <commit-hash>` | إعادة التعيين إلى التزام محدد |
+
+### إخفاء التغييرات
+
+| أمر | وصف |
+| ------- | ----------- |
+| `git stash` | قم بتخزين التغييرات في دليل العمل القذر|
+| `git stash pop` |  مخبأ البوب ​​|
+| `git stash clear` | ` قم بإزالة كافة الإدخالات المخبأة | |
+
+
+### أوامر إضافية
+
+| أمر | وصف |
+| ------- | ----------- |
+| `git reset HEAD [file-name.txt]` | إزالة التغييرات من المرحلة|
+| `git rebase -i <commit-hash>` |التزامات الاسكواش (Rebase التفاعلية) |
+| `git rebase <branch-name>` | إعادة تأسيس فرع |
+| `git reset --hard <commit-hash>` | من الصعب إعادة |
+| `git fetch upstream` | جلب التغييرات المنبع |
+| `git merge upstream/main` | دمج التغييرات المنبع |
+| `git push origin main` | دفع التغييرات إلى الأصل |
+
+### Resolving Merge Conflicts
+
+| أمر | وصف |
+| ------- | ----------- |
+| `git merge <branch-name>` | دمج فرع (لتسبب الصراعات) |
+| `git add [file-name.txt]` | مرحلة حل الملفات |
+| `git commit` | الالتزام بالتغييرات التي تم حلها |

@@ -75,3 +75,34 @@ _Lista de los comandos de Git más utilizados_
 | `git log --summary` | Visualiza los cambios (en detalle) |
 | `git log --oneline` | Visualiza los cambios (resumido)) |
 | `git diff [source branch] [target branch]` | Vista previa de los cambios antes de hacer un merge |
+
+### Gestión de compromisos
+| Comando | Descripción |
+| ------- | ----------- |
+| `git revert <commit-hash>` | Revertir una confirmación |
+| `git reset --hard <commit-hash>` | Restablecer a una confirmación específica |
+
+### Cambios ocultos
+| Comando | Descripción |
+| ------- | ----------- |
+| `git stash` | Guarde los cambios en un directorio de trabajo sucio |
+| `git stash pop` | alijo de pop |
+| `git stash clear` | Eliminar todas las entradas ocultas |
+
+### Comandos adicionales
+| Comando | Descripción |
+| ------- | ----------- |
+| `git reset HEAD [file-name.txt]` | Eliminar cambios del escenario |
+| `git rebase -i <commit-hash>` | Confirmaciones de Squash (rebase interactiva) |
+| `git rebase <branch-name>` | Rebase una rama |
+| `git reset --hard <commit-hash>` | Restablecimiento completo |
+| `git fetch upstream` | Obtener cambios ascendentes |
+| `git merge upstream/main` | Fusionar cambios ascendentes |
+| `git push origin main` | Enviar cambios al origen |
+
+### Resolución de conflictos de fusión
+| Comando | Descripción |
+| ------- | ----------- |
+| `git merge <branch-name>` | Fusionar una rama (para causar conflictos) |
+| `git add [file-name.txt]` | Archivos resueltos en etapa |
+| `git commit` | Confirmar cambios resueltos |

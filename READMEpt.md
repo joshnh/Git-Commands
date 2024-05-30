@@ -74,3 +74,37 @@ _Uma lista dos comandos Git mais usados_
 | `git log --summary` | Ver modificações (detalhadas) |
 | `git diff [branch original] [branch alvo]` | Visualizar alterações antes de mesclar |
 
+### Gerenciando confirmações
+| Comando | Descrição |
+| ------- | ----------- |
+| `git revert <commit-hash>` | Reverter um commit |
+| `git reset --hard <commit-hash>` | Redefinir para um commit específico |
+
+### Armazenando alterações
+
+| Comando | Descrição |
+| ------- | ----------- |
+| `git stash` | Armazenar alterações em um diretório de trabalho sujo |
+| `git stash pop` | Esconderijo pop |
+| `git stash clear` | Remova todas as entradas escondidas |
+
+### Comandos Adicionais
+
+| Comando | Descrição |
+| ------- | ----------- |
+| `git reset HEAD [file-name.txt]` | Remover alterações do cenário |
+| `git rebase -i <commit-hash>` | Squash commits (rebase interativo) |
+| `git rebase <branch-name>` | Rebasear uma ramificação |
+| `git reset --hard <commit-hash>` | Reinicialização total |
+| `git fetch upstream` | Buscar alterações upstream |
+| `git merge upstream/main` | Mesclar alterações upstream |
+| `git push origin main` | Enviar alterações para a origem |
+
+### Resolvendo conflitos de mesclagem
+
+| Comando | Descrição |
+| ------- | ----------- |
+| `git merge <branch-name>` | Mesclar um branch (para causar conflitos) |
+| `git add [file-name.txt]` |  |
+| `git commit` | Confirmar alterações resolvidas |
+
