@@ -1,4 +1,4 @@
-Git Commands
+ Git Commands
 ============
 
 ## Translated Versions
@@ -75,3 +75,38 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Managing Commits
+
+| Command | Description |
+| ------- | ----------- |
+| `git revert <commit-hash>` | Revert a commit |
+| `git reset --hard <commit-hash>` | Reset to a specific commit |
+
+### Stashing Changes
+
+| Command | Description |
+| ------- | ----------- |
+| `git stash` | Stash changes in a dirty working directory |
+| `git stash pop` | Pop stash |
+| `git stash clear` | Remove all stashed entries |
+
+### Additional Commands
+
+| Command | Description |
+| ------- | ----------- |
+| `git reset HEAD [file-name.txt]` | Remove changes from stage |
+| `git rebase -i <commit-hash>` | Squash commits (interactive rebase) |
+| `git rebase <branch-name>` | Rebase a branch |
+| `git reset --hard <commit-hash>` | Hard reset |
+| `git fetch upstream` | Fetch upstream changes |
+| `git merge upstream/main` | Merge upstream changes |
+| `git push origin main` | Push changes to origin |
+
+### Resolving Merge Conflicts
+
+| Command | Description |
+| ------- | ----------- |
+| `git merge <branch-name>` | Merge a branch (to cause conflicts) |
+| `git add [file-name.txt]` | Stage resolved files |
+| `git commit` | Commit resolved changes |
