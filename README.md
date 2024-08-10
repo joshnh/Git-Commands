@@ -1,4 +1,4 @@
-Git Commands
+Git Commands - saptarshi mondal
 ============
 
 ## Translated Versions
