@@ -75,3 +75,193 @@ _A list of my commonly used Git commands_
 | `git log --summary` | View changes (detailed) |
 | `git log --oneline` | View changes (briefly) |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+
+
+# **How To write a Message On GitHub**
+
+# h1
+
+## h2
+
+### h3
+
+#### h4
+
+##### h5
+
+###### h6
+
+```yaml
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+```
+
+<hr/>
+
+normall text **Bold Text** _italic Text_ **_Bold Italic Text_** ~~line throw~~
+
+```yaml
+noraml text  **Bold Text**  *italic Text*
+***Bold Italic Text*** ~~line throw~~
+```
+
+## making a unorderd list
+
+- first
+- second
+  - subitem1
+  - subitem2
+- third
+
+```yaml
+- first
+- second
+  - subitem1
+  - subitem2
+- third
+```
+
+## making ordered list
+
+1. first
+   1. sub1
+   2. sub2
+   3. sub2
+2. second
+3. third
+
+```yaml
+1. first
+1. sub1
+2. sub2
+3. sub2
+2. second
+3. third
+```
+
+## CheckBoxes
+
+- [ ] this is not complete yet
+- [x] this is complete
+
+```yaml
+- [ ] this is not complete yet
+- [x] this is complete
+```
+
+## Links
+
+[Link to Google HomePage](https://google.com/)
+
+```yaml
+[Link to Google HomePage](https://google.com/)
+```
+
+## How to include Imgs
+
+![My Profile Img](MyProfile.png)
+
+## The code for displaying the img
+
+```
+![My Profile Img](MyProfile.png)
+```
+
+## If you want to resize the image
+
+<img src="MyProfile.png" alt="My Profile Img" width="400" height="200">
+
+## You can use simple HTML code
+
+```html
+<img src="MyProfile.png" alt="My Profile Img" width="400" height="200" />
+```
+
+## Table
+
+| column1 | column2 |
+| :------ | ------: |
+| row1 a  |  row1 b |
+| row1 a  |  row1 b |
+| row3 a  |  row3 b |
+| row4 a  |  row4 b |
+
+```yaml
+| column1 | column2 |
+|:---|---:|
+|row1 a | row1 b
+|row1 a | row1 b
+|row3 a | row3 b
+|row3 a | row3 b
+```
+
+### For Center Table Content
+
+```yaml
+| column1 | column2 |
+|:---:|:---:|
+|row1 a | row1 b
+|row1 a | row1 b
+|row3 a | row3 b
+|row3 a | row3 b
+
+```
+
+### highlight some Text
+
+this is the `console.table()` in javascript
+show's the data like that
+
+```yaml
+┌─────────┬───────────┬─────┬─────────────────┐
+│ (index) │   name    │ age │      city       │
+├─────────┼───────────┼─────┼─────────────────┤
+│    0    │  'Alice'  │ 25  │   'New York'    │
+│    1    │   'Bob'   │ 30  │ 'San Francisco' │
+│    2    │ 'Charlie' │ 35  │    'Chicago'    │
+└─────────┴───────────┴─────┴─────────────────┘
+```
+
+### highlighted Text code
+
+```yaml
+`console.table()`
+```
+
+### Show differences you made in the code
+
+```diff
+- const data = [];
++ const data = {};
+```
+
+### the code
+
+#### ```diff
+
+#### - const data = [];
+
+#### + const data = {};
+
+#### ```
+
+### Reply to specific message
+
+#### **Ihave idea 1 that is lab lab laaaa....**
+
+#### **also idea 2 that is lab lab laaaa....**
+
+<hr/>
+
+> Ihave idea 1 that is lab lab laaaa....
+
+### i think i agree with this
+
+> also idea 2 that is lab lab laaaa also....
+
+### i dont agree with that
