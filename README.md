@@ -54,7 +54,7 @@ _If you are interested in my Git aliases, have a look at my `.bash_profile`, fou
 | `git stash`                                          | Stash changes in a dirty working directory              |
 | `git stash clear`                                    | Remove all stashed entries                              |
 
-### Sharing & Updating
+### Sharing & Updating Projects
 
 | Command                                                                           | Description                                                 |
 | --------------------------------------------------------------------------------- | ----------------------------------------------------------- |
@@ -75,3 +75,16 @@ _If you are interested in my Git aliases, have a look at my `.bash_profile`, fou
 | `git log --summary`                        | View changes (detailed)        |
 | `git log --oneline`                        | View changes (briefly)         |
 | `git diff [source branch] [target branch]` | Preview changes before merging |
+
+### Rewriting History
+
+| Command | Description |
+| ------- | ----------- |
+
+| 'git commit --amend -m [new message]' Change the message of the last commit
+| 'git rebase [branch name]' | Rebase the current branch onto another branch
+| 'git rebase -i [commit-hash]' | Interactively rebase (useful for squashing commits)
+| 'git reset [commit-hash] | 'Reset to a specific commit (keep changes in working directory)
+| 'git reset --hard [commit-hash]' | Reset to a specific commit and discard all changes after that commit
+| 'git revert [commit-hash]' | Create a new commit that undoes changes from a specific commit
+| 'git reflog' | Show a log of changes to the local repository, including resets and checkouts
