@@ -1,4 +1,4 @@
-YP Git Commands
+Git Commands
 ============
 
 ## Translated Versions
