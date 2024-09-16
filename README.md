@@ -5,6 +5,7 @@ Git Commands
 - [Versão em português](READMEpt.md)
 - [Versión en español](READMEes.md)
 - [Türkçe versiyon](READMEtr.md)
+- [Azərbaycanca versiya](READMEaz.md)
 - [বাংলা সংস্করণ](READMEbn.md)
 - [हिन्दी अनुवाद](READMEhi.md)
 - [العربية](READMEar.md)
@@ -53,6 +54,7 @@ _A list of my commonly used Git commands_
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
+| `git stash pop` | Apply latest stash to working directory |
 
 ### Sharing & Updating Projects
 
