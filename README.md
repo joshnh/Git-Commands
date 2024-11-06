@@ -9,6 +9,7 @@ Git Commands
 - [বাংলা সংস্করণ](READMEbn.md)
 - [हिन्दी अनुवाद](READMEhi.md)
 - [العربية](READMEar.md)
+- [فارسی](READMEfr.md)
 
 ___
 
