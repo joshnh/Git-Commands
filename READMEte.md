@@ -8,6 +8,7 @@ Git కమాండ్స్
 - [বাংলা সংস্করণ](READMEbn.md)
 - [हिन्दी अनुवाद](READMEhi.md)
 - [العربية](READMEar.md)
+- [English Version](README.md)
 
 ___
 
