@@ -1,7 +1,7 @@
-গিট কমান্ডস বাংলা
+গিট নির্দেশনার তালিকা বাংলা
 ============
 
-## অনুবাদিত সংস্করণ
+## আক্ষরিক অনুবাদিত সংস্করণ
 - [English version (original)](README.md)
 - [Versão em português](READMEpt.md)
 - [Versión en español](READMEes.md)
@@ -68,7 +68,7 @@ ___
 | `git pull` | সর্বশেষ সোপর্দ দ্বারা স্থানীয় ভান্ডার হালনাগাদ করুন |
 | `git pull origin [branch name]` | দূরবর্তী ভান্ডার থেকে পরিবর্তনগুলি টানুন |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | দূরবর্তী ভান্ডার যোগ করুন |
-| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | ভান্ডারের মূল শাখায় SSH এ নির্ধারণ করুন |
+| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | ভান্ডারের মূল শাখায় SSH(Secure Shell) এ নির্ধারণ করুন |
 
 ### পর্যালোচনা এবং তুলনা
 
