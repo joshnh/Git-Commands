@@ -31,8 +31,8 @@ ___
 | কমান্ড | বর্ণনা |
 | ------- | ----------- |
 | `git status` | অবস্থা যাচাই করুন |
-| `git add [file-name.txt]` | স্টেজিং এরিয়ায় একটি ফাইল এড করুন  |
-| `git add -A` | স্টেজিং এলাকায় সমস্ত নতুন এবং পরিবর্তিত ফাইল এড করুন |
+| `git add [file-name.txt]` | স্টেজিং এরিয়ায় একটি ফাইল যোগ করুন  |
+| `git add -A` | স্টেজিং এলাকায় সমস্ত নতুন এবং পরিবর্তিত ফাইল যোগ করুন |
 | `git commit -m "[commit message]"` | পরিবর্তনগুলোর কমিট (ব্যাখ্যা) করুন  |
 | `git rm -r [file-name.txt]` | ফাইল (বা ডিরেক্টরি) ডিলেট করুন |
 | `git remote -v` | বর্তমানে কাজ করা ফাইল বা ডিরেক্টরির রিমোট রিপোসিটরি দেখুন |
@@ -67,7 +67,7 @@ ___
 | `git push origin --delete [branch name]` | রিমোট ব্রাঞ্চ ডিলিট করুন |
 | `git pull` | সর্বশেষ কমিট দ্বারা স্থানীয় রেপো আপডেট করুন |
 | `git pull origin [branch name]` | রিমোট রেপো থেকে পরিবর্তনগুলি পুল করুন |
-| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | রিমোট রেপো এড করুন |
+| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | রিমোট রেপো যোগ করুন |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | রেপোর অরিজিন ব্রাঞ্চে SSH এ সেট করুন |
 
 ### পর্যালোচনা এবং তুলনা
