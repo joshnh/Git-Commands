@@ -8,6 +8,7 @@ Git Commands
 - [Azərbaycanca versiya](READMEaz.md)
 - [বাংলা সংস্করণ](READMEbn.md)
 - [हिन्दी अनुवाद](READMEhi.md)
+- [ગુજરાતી અનુવાદ](READMEguj.md)
 - [العربية](READMEar.md)
 
 ___
